@@ -15,23 +15,23 @@
   },
   "homepage": "https://github.com/homura/typescript-lib-starter#readme",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test": "jest -c jest.config.js",
     "clean": "rimraf lib",
     "lint": "eslint -c .eslintrc.js src/**/*.ts"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
-    "@typescript-eslint/parser": "^3.6.0",
-    "eslint": "^7.4.0",
-    "husky": "^4.2.5",
-    "jest": "^26.0.1",
-    "prettier": "^2.0.5",
-    "pretty-quick": "^2.0.1",
-    "rimraf": "^2.6.2",
-    "ts-jest": "^26.1.2",
-    "typescript": "^3.9.6"
+    "@types/jest": "^26.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.16.0",
+    "husky": "^4.3.6",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
   },
   "husky": {
     "hooks": {
